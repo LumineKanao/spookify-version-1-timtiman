@@ -288,11 +288,12 @@ section a {
 
 /* FOOTER */
 
-footer {
-  background-image: url(images/Vector.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 10%;
+.footer {
+  position: relative;
+}
+
+.vector {
+  height: 50rem;
 }
 
 .footer {
@@ -300,6 +301,15 @@ footer {
   flex-direction: row;
   align-items: center;
   margin-left: 10%;
+  top: 42rem;
+  left: 4rem;
+
+
+}
+
+.footer-position {
+  position: relative;
+  top: 45rem;
 }
 
 .email {
