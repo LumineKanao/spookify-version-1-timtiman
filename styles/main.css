@@ -10,6 +10,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* Reset */
+
 *,
 *::before,
 *::after {
@@ -19,6 +20,7 @@ font-family: 'Poppins', sans-serif;
 html {
   font-size: 62.5%;
   line-height: 1.5;
+
 }
 
 h1,
@@ -42,3 +44,293 @@ ol[class] {
   margin-top: var(--flow-spacer, var(--spacer));
 }
 /* Start Here */
+
+
+/* Nav Bar */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-header {
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #3D2892;
+  margin: 4%;
+}
+
+li {
+  display: inline;
+  font-size: 18px;
+  padding-left: 2rem;
+}
+
+nav p {
+  font-weight: bold;
+  font-size: 26px; 
+  font-family: 'Poppins', sans-serif;
+}
+
+nav a {
+  font-weight: 900;
+}
+
+span {
+  color: #F55D3A;
+  
+}
+
+h2,h3 {
+  color: #3D2892;
+}
+
+
+h3 {
+  font-size: 2.8rem;
+}
+
+p {
+  font-family: 'Lora', sans-serif;
+}
+
+/* SECTION HERO */
+
+.hero {
+  margin: 0% 2%;
+}
+
+.logo {
+  height: 40rem;
+  float: right;
+  margin-right: 3%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul a {
+  color: #3D2892;
+}
+
+h1 {
+  color: #F55D3A;
+  font-size: 6.4rem;
+}
+
+.hero h1 {
+  margin: 7%;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.hero-h2 {
+  color: #4A4A4A;
+  font-weight: 100;
+  font-family: 'Lora', sans-serif;
+  font-size: 3.2rem;
+  margin: -2% 6% 6%;
+  max-width: 35%;
+
+}
+
+@media screen and (max-width: 600px){ 
+    h2 {
+      min-width: 100%;
+    }
+}
+
+section button {
+  background-color: #3D2892;
+  border-radius: 5px;
+  border: none;
+  padding: 1% 1.7%;
+  margin: -2% 6% 6%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section a {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 600;
+}
+
+
+/* SECTION STORIES */
+
+.main-stories {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ .paramdam, .senyales {
+   padding: 0% 15%;
+   margin: 3%;
+ }
+ 
+ .paramdam__figure{
+   float: left;
+ }
+ 
+ .senyales__figure {
+   float: right;
+ }
+ 
+ .paramdam img {
+  box-shadow: #F55D3A -1rem -1rem 0px;
+  border-radius: 1%;
+
+}
+ 
+ .senyales img {
+   box-shadow: #1AC3C3 1rem -1rem 0px;
+   border-radius: 1%;
+ }
+ 
+ 
+ .main-stories a {
+   color: #F55D3A;
+   text-shadow: rgba(0, 0, 0, 0.35) 1px 5px 10px;
+ }
+ 
+ .stories p {
+   font-size: 1.8rem;
+   color: gray;
+   padding: 1.5% 0%;
+   line-height: 2.5rem;
+   
+ }
+ 
+.paramdam-text {
+  padding:  0% 0% 0% 40%;
+  margin:  0% 8% 0% 0%;
+}
+
+@media screen and (max-width: 600px){ 
+  .paramdam-text {
+    padding:  0% 0% 0% 0%;
+    margin:  0% 0% 0% 0%;
+  }
+
+}
+
+.senyales-text {
+  padding:  0% 30% 0% 0%;
+  margin:  0% 20% 0% 0%;
+}
+ 
+
+@media screen and (max-width: 600px){ 
+  .senyales-text {
+    padding:  0% 0% 0% 0%;
+    margin:  0% 0% 0% 0%;
+  }
+
+}
+ 
+ .stories-h2, .authors-h2 {
+   text-align: center;
+   font-size: 3.2rem;
+ }
+ 
+ 
+ .stories-h2 {
+   text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   margin: 10% 0%;
+ }
+
+/* MAIN AUTHORS */
+
+.authors-h2 {
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 5% 0%;
+}
+
+.main-authors {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 10%;
+  margin-left: 7%;
+}
+
+
+
+.img_scarlette {
+  height: 17.8rem;
+  width: auto;
+  
+}
+
+.sub-authors h3 {
+  color: #F55D3A;
+  padding-top: 10%;
+}
+
+.sub-authors p {
+  font-weight: 900;
+  color:  #4A4A4A;
+  font-size: 1.8rem;
+  margin: 12% 0%;
+}
+
+.figure_scarlette p {
+  position: relative;
+  bottom: 1rem;
+  height: 2rem;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-image: url(/images/Vector.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.email {
+  background-color: lightgray;
+  border: none;
+  width: 30rem;
+  height: 3.5rem;
+  margin: 0% 3% 0% 7%;
+}
+
+
+.submit {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #3D2892;
+  border: none;
+  border-radius: 0.2rem;
+  width: 10rem;
+  height: 3rem;
+  font-weight: bold;
+}
+
+footer p {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer-details {
+  position: relative;
+  top: 13rem;
+}
